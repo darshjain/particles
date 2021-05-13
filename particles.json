@@ -40,7 +40,7 @@
         },
         "move": {
             "enable": true,
-            "speed": 3,
+            "speed": 10,
             "direction": "none",
             "straight": false
         }
@@ -58,7 +58,7 @@
         },
         "modes": {
             "repulse": {
-                "distance": 50,
+                "distance": 200,
                 "duration": 0.4
             },
             "bubble": {
@@ -66,10 +66,10 @@
                 "size": 10
             },
             "push": {
-                "particles_nb": 2
+                "particles_nb": 3
             },
             "remove": {
-                "particles_nb": 1
+                "particles_nb": 2
             }
         }
     },
